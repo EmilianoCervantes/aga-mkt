@@ -1,0 +1,248 @@
+@font-face {
+  font-family: 'lato';
+  src: url('./Lato-Regular.ttf') format('ttf');
+}
+
+body {
+  font-family: lato;
+}
+
+.col-4 {
+  -ms-flex: 0 0 45%;
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.col-8 {
+  -ms-flex: 0 0 55%;
+  flex: 55%;
+  max-width: 55%;
+}
+
+#header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+}
+#header #top-logo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+#header #full-menu {
+  background-color: #252525;
+  /* padding-top: 0.5em;
+  padding-bottom: 0.5em; */
+}
+#header #full-menu .text-center {
+  border-left: 1px solid #383838;
+  border-right: 1px solid #383838;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+#header #full-menu a {
+  color: white;
+}
+#header #full-menu .text-center.selected {
+  background-color: #fadb49;
+}
+#header #full-menu .text-center.selected a {
+  color: #252525;
+}
+
+#homeCarousel .carousel-inner {
+  /* position: relative; */
+  /* margin-top: 50vh; */
+  height: 85vh;
+}
+#homeCarousel .carousel-item .d-block.w-100 {
+  filter: brightness(50%);
+}
+#homeCarousel .carousel-item .carousel-caption {
+  /* top: 40%!important; */
+}
+/* #homeCarousel .carousel-item .carousel-caption h1 {
+  font-size: 3rem;
+} */
+#homeCarousel .carousel-item .carousel-caption h4 {
+  font-size: 1.25rem;
+}
+#homeCarousel .carousel-item .carousel-caption h1, #homeCarousel .carousel-item .carousel-caption h4 {
+  font-weight: bold;
+}
+
+p {
+  color: #c6c6c6;
+}
+
+/* ***** */
+.container {
+  max-width: 100%!important;
+  background-color: #252525;
+}
+
+h1.text-center {
+  font-size: 3em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: #fadb49;
+}
+.section {
+  height: 80vh;
+  border-bottom: 1px solid white;
+}
+.sections-text {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: justify;
+  line-height: 2.5;
+  font-size: 1.15rem;
+}
+
+.separador {
+  height: 1px;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 40%;
+  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+.container .img-col {
+  overflow: hidden;
+  position: relative;
+}
+.container .img-col img {
+  padding: 0;
+  display: block;
+  height: 80vh;
+  max-height: 80vh;
+  max-width: 150%;
+}
+
+.fullscreen-img {
+  max-height: 75vh;
+  margin: auto;
+  display: block;
+}
+.alt-title {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: #c6c6c6;
+}
+.icon {
+  width: 10%;
+}
+.icon2 {
+  width: 6%;
+}
+.icon3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.multIcon {
+  width: 30%;
+}
+.section-ul, .fv.text-center {
+  color: #c6c6c6;
+}
+.section-ul-yellow {
+  color: #fadb49;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+/* ***** *****
+***** QUIENES SOMOS *****
+***** ***** */
+#quienes_somos .img-col {
+  background-color: white;
+}
+#quienes_somos .img-col img {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+.span_yellow {
+  font-weight: bold;
+  color: #fadb49;
+  font-size: 1.2em;
+}
+
+/* SERVICIOS */
+#servicios {
+  background-color: white;
+  padding: 1.5em;
+}
+.servicios h1 {
+  padding-top: 1em;
+}
+.fv.text-center {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.servAdTit {
+  margin-bottom: 4rem;
+}
+.section-ul.adicionales, .section-ul.adicionales li {
+  margin-top: 1rem;
+}
+
+/* COBERTURA */
+.section-cobertura {
+  line-height: 1.5;
+}
+#cobertura .sections-text {
+  font-size: 1.5rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  #header {
+    position: fixed;
+  }
+  #homeCarousel {
+    margin-top: 10%;
+  }
+  #homeCarousel .carousel-item .carousel-caption {
+    top: 40%!important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #homeCarousel .carousel-item .carousel-caption h1 {
+    font-size: 3rem;
+  }
+  #homeCarousel .carousel-item .carousel-caption h4 {
+    font-size: 1.5rem;
+  }
+  #homeCarousel .carousel-item .carousel-caption {
+    top: 30%!important;
+  }
+  .sections-text {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+
+  .servicios .section-ul {
+    padding-left: 7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .servicios .section-ul {
+    padding-left: 10rem;
+  }
+}

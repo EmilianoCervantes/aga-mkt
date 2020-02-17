@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AGA Marketing</title>
+    <!-- BOOSTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/d125e68a73.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="row">
+        <div class="col">
+          <img id="top-logo" src="./img/AGA C.png" alt="top logo">
+        </div>
+      </div>
+      <div id="full-menu" class="row">
+        <div class="col-12 col-xs-12 col-md-1 text-center selected menu-selection">
+          <a onclick="toTop(); cambioMenu(this)" href="#">HOME</a>
+        </div>
+        <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
+          <a onclick="cambioMenu(this)" href="#quienes_somos">QUIÉNES SOMOS</a>
+        </div>
+        <div class="col-12 col-xs-12 col-md-1 text-center menu-selection">
+          <a onclick="cambioMenu(this)" href="#mision">MISIÓN</a>
+        </div>
+        <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
+          <a onclick="cambioMenu(this)" href="#servicios">SERVICIOS</a>
+        </div>
+        <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
+          <a onclick="cambioMenu(this)" href="#cobertura">COBERTURA</a>
+        </div>
+        <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
+          <a onclick="cambioMenu(this)" href="#">EXPERIENCIA/CLIENTES</a>
+        </div>
+        <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
+          <a onclick="cambioMenu(this)" href="#">CONTACTO</a>
+        </div>
+      </div>
+    </header>
+
+
+    <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#homeCarousel" data-slide-to="1"></li>
+        <li data-target="#homeCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/_slider1.jpg" class="d-block w-100" alt="carousel 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Soluciones Efectivas Siempre</h1>
+            <h4>PERSONAL PARA INDUSTRIA DE CONSUMO</h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/_slider2.jpg" class="d-block w-100" alt="carousel 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Soluciones Efectivas Siempre</h1>
+            <h4>FUERZA DE VENTAS</h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/_slider3.jpg" class="d-block w-100" alt="carousel 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Soluciones Efectivas Siempre</h1>
+            <h4>PERSONAL PARA INDUSTRIA DE CONSUMO</h4>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/_slider4.jpg" class="d-block w-100" alt="carousel 4">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Soluciones Efectivas Siempre</h1>
+            <h4>FUERZA DE VENTAS</h4>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <div class="container">
+      <!-- QUIÉNES -->
+      <div id="quienes_somos" class="row section">
+        <div class="col-6 img-col">
+          <img id="quienes_somos_img" src="./img/quienes_somos.png" alt="quienes_somos">
+        </div>
+        <div class="col-6">
+          <h1 class="text-center">¿QUIÉNES SOMOS?</h1>
+          <p class="sections-text">Somos una empresa <span class="span_yellow">100% mexicana</span> con 35 años de experiencia en el mercado dedicada al apoyo de las estrategias de Marketing de nuestros clientes principalmente aportando al mejor talento humano en el punto de venta, incluyendo el seguimiento completo, la operación con supervisores y manejo de información en tiempo real.</p>
+        </div>
+      </div>
+      <div id="quienes_somos_2" class="row section">
+        <div class="col-6 img-col">
+          <img id="quienes_somos_img_2" src="./img/Mision.jpg" alt="quienes_somos">
+        </div>
+        <div class="col-6">
+          <h1 class="text-center">HISTORIA</h1>
+          <p class="sections-text">Empresa fundada en 1984 por Antonio Guerrero. Por más de 30 años se desarrolló exitosamente en las áreas comerciales de Colgate (Marketing y Ventas) y dirigió más de 20 años esta compañía. <span class="span_yellow">AGA Marketing y Promociones</span> surge ante la necesidad de las empresas que requieren de un servicio y atención profesional en la contratación, capacitación y supervisión de personal para el punto de venta.</p>
+        </div>
+      </div>
+
+      <!-- MISION -->
+      <div id="mision" class="row section">
+        <div class="col-6">
+          <h1 class="text-center">MISIÓN</h1>
+          <p class="sections-text">Ser el mejor socio comercial efectivo y productivo de las empresas que busquen conquistar, a través de estrategias asertivas de marketing y promoción, a más clientes de forma constante y permanente con altos estándares de calidad.</p>
+          <div class="separador"></div>
+          <h2 class="sections-quotes text-center">“Soluciones Efectivas Siempre”</h2>
+        </div>
+        <div class="col-6 img-col">
+          <img id="quienes_somos_img" src="./img/Mision.jpg" alt="mision">
+        </div>
+      </div>
+
+      <!-- SERVICIOS -->
+      <div id="servicios" class="row section">
+        <div class="col-12">
+          <img class="fullscreen-img" src="./img/servicios.png" alt="servicios mapa">
+        </div>
+      </div>
+      <div id="servicios_2" class="row servicios section">
+        <div class="col-6 img-col">
+          <img id="servicios_img_2" class="img-fluid" src="./img/_slider1.jpg" alt="servicios 2">
+        </div>
+        <div class="col-6">
+          <div id="carouselServicios" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon.png"" alt=""> </span> Personal para Industria de Consumo</h3>
+                <h1 class="text-center">Tipo de Personal</h1>
+                <h4 class="section-ul">- Demostradoras</h4>
+                <h4 class="section-ul">- Demovendedoras</h4>
+                <h4 class="section-ul">- Promotores</h4>
+                <h4 class="section-ul">- Promovendedores</h4>
+                <h4 class="section-ul">- Edecanes</h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon.png"" alt=""> </span> Personal para Industria de Consumo</h3>
+                <h1 class="text-center">¿Dónde?</h1>
+                <h4 class="section-ul">- Canal tradicional y moderno</h4>
+                <h4 class="section-ul">- Tiendas departamentales</h4>
+                <h4 class="section-ul">- Centros comerciales</h4>
+                <h4 class="section-ul">- Ferias</h4>
+                <h4 class="section-ul">- Exposiciones</h4>
+                <h4 class="section-ul">- Hogares</h4>
+                <h4 class="section-ul">- Calle</h4>
+                <h4 class="section-ul">- Centros de canje</h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon.png"" alt=""> </span> Personal para Industria de Consumo</h3>
+                <h1 class="text-center">¿Qué Ofrecemos?</h1>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i1.png"" alt="icon2"> </span> Reclutamiento y selección</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i2.png"" alt="icon2"> </span> Administración de nómina</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i3.png"" alt="icon2"> </span> Capacitación</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i4.png"" alt="icon2"> </span> Supervisión</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i5.png"" alt="icon2"> </span> Control</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i6.png"" alt="icon2"> </span> Medición de resultados que contribuye a la estrategia de marca</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i7.png"" alt="icon2"> </span> Back Office (Itinerarios, viajes, leasing, fondos de viajes, gasolina, etc.)</h4>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselServicios" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselServicios" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- FUERZA DE VENTAS -->
+      <div id="servicios_3" class="row servicios section">
+        <div class="col-6 img-col">
+          <img id="servicios_img_2" class="img-fluid" src="./img/_slider2.jpg" alt="servicios 3">
+        </div>
+        <div class="col-6">
+          <div id="carouselFV" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon_2.png"" alt=""> </span> Fuerza de Ventas</h3>
+                <h1 class="text-center">Fuerza de Ventas para:</h1>
+                <img class="icon icon3" src="./img/fv_1.png" alt="fv 1">
+                <h4 class="fv text-center">1. Industria de Consumo</h4>
+                <img class="icon icon3 multIcon" src="./img/fv_2.png" alt="fv 2">
+                <h4 class="fv text-center">2. Especializada</h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon_2.png"" alt=""> </span> Fuerza de Ventas</h3>
+                <img class="icon icon3 multIcon" src="./img/fv_2.png" alt="fv 2">
+                <h4 class="fv text-center">2. Fuerza de Ventas Especializada</h4>
+                <h4 class="section-ul section-ul-yellow">INDUSTRIA FARMACÉUTICA</h4>
+                <h4 class="section-ul">- Fuerza de ventas tradicional</h4>
+                <h4 class="section-ul">- Fuerza de ventas especialziada</h4>
+                <h4 class="section-ul section-ul-yellow">OTRAS INDUSTRIAS</h4>
+                <h4 class="section-ul">- Químicos</h4>
+                <h4 class="section-ul">- Colorantes</h4>
+                <h4 class="section-ul">- Agropecuarias</h4>
+                <h4 class="section-ul">- Etc.</h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon_2.png"" alt=""> </span> Fuerza de Ventas</h3>
+                <h1 class="text-center">¿Qué Ofrecemos?</h1>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i1.png"" alt="icon2"> </span> Reclutamiento y selección</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i2.png"" alt="icon2"> </span> Administración de nómina</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i3.png"" alt="icon2"> </span> Capacitación</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i4.png"" alt="icon2"> </span> Supervisión</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i5.png"" alt="icon2"> </span> Control</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i6.png"" alt="icon2"> </span> Medición de resultados que contribuye a la estrategia de marca</h4>
+                <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i7.png"" alt="icon2"> </span> Back Office (Itinerarios, viajes, leasing, fondos de viajes, gasolina, etc.)</h4>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselFV" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselFV" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- ADICIONALES -->
+      <div id="servicios_4" class="row servicios section">
+        <div class="col-6">
+          <div id="carouselAdicionales" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3 class="alt-title text-center servAdTit"> <span> <img class="icon" src="./img/servicios_adicionales.png"" alt=""> </span> Servicios Adicionales</h3>
+                <h4 class="section-ul adicionales">- Materiales de apoyo complementarios</h4>
+                <h4 class="section-ul adicionales">- Capacitación</h4>
+                <h4 class="section-ul adicionales">- Organización de:
+                  <span>
+                    <ul>
+                      <li>Reuniones estratégicas</li>
+                      <li>Eventos</li>
+                    </ul>
+                  </span>
+                </h4>
+                <h4 class="section-ul adicionales">- Digital</h4>
+                <h4 class="section-ul adicionales">- Administración de nómina</h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center servAdTit"> <span> <img class="icon" src="./img/servicios_adicionales.png"" alt=""> </span> Servicios Adicionales</h3>
+                <h2 class="section-ul section-ul-yellow">MATERIALES DE APOYO COMPLEMENTARIOS</h2>
+
+                <h4 class="section-ul adicionales">
+                  <span>
+                    <ul>
+                      <li>Materiales impresos</li>
+                      <li>Artículos</li>
+                      <li>Promocionales</li>
+                      <li>Stands</li>
+                      <li>Material pto. de vta</li>
+                      <li>Textiles</li>
+                      <li>Rotulación automotriz</li>
+                      <li>Equipo de seguridad industria</li>
+                    </ul>
+                  </span>
+                </h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center servAdTit"> <span> <img class="icon" src="./img/servicios_adicionales.png"" alt=""> </span> Servicios Adicionales</h3>
+                <h2 class="section-ul section-ul-yellow">CAPACITACIÓN</h2>
+                <h4 class="section-ul">Cursos y talleres en temas corporativos:</h4>
+                <h4 class="section-ul adicionales">
+                  <span>
+                    <ul>
+                      <li>Motivación</li>
+                      <li>Liderazgo</li>
+                      <li>Integración</li>
+                      <li>Servicio responsable</li>
+                      <li>Equipos de alto desempeño </li>
+                      <li>Imagen</li>
+                      <li>Entre otros, adaptados a las necesidades y tiempos de nuestros clientes</li>
+                    </ul>
+                  </span>
+                </h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center servAdTit"> <span> <img class="icon" src="./img/servicios_adicionales.png"" alt=""> </span> Servicios Adicionales</h3>
+                <h2 class="section-ul section-ul-yellow">REUNIONES ESTRATÉGICAS Y EVENTOS</h2>
+                <h4 class="section-ul">Logística y organización</h4>
+                <h4 class="section-ul adicionales">
+                  <span>
+                    <ul>
+                      <li>Lanzamiento</li>
+                      <li>Advisory Board</li>
+                      <li>Convenciones</li>
+                      <li>Reuniones de ventas</li>
+                      <li>Seminarios</li>
+                      <li>Talleres</li>
+                      <li>Fiestas tema</li>
+                    </ul>
+                  </span>
+                </h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center servAdTit"> <span> <img class="icon" src="./img/servicios_adicionales.png"" alt=""> </span> Servicios Adicionales</h3>
+                <h2 class="section-ul section-ul-yellow">DIGITAL</h2>
+                <h4 class="section-ul adicionales">
+                  <span>
+                    <ul>
+                      <li>Páginas web</li>
+                      <li>CRM's</li>
+                      <li>Mintería de datos</li>
+                      <li>Dashboard</li>
+                      <li>Ayudas Visuales</li>
+                    </ul>
+                  </span>
+                </h4>
+              </div>
+              <div class="carousel-item">
+                <h3 class="alt-title text-center servAdTit"> <span> <img class="icon" src="./img/servicios_adicionales.png"" alt=""> </span> Servicios Adicionales</h3>
+                <h2 class="section-ul section-ul-yellow">ADMINISTRACIÓN DE NÓMINA</h2>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselAdicionales" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselAdicionales" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+        <div class="col-6 img-col">
+          <img id="servicios_img_2" class="img-fluid" src="./img/materialesAdicionales3.jpg" alt="servicios 4">
+        </div>
+      </div>
+
+
+      <!-- COBERTURA -->
+      <div id="cobertura" class="row section">
+        <div class="col-6">
+          <div id="carouselCobertura" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1 class="text-center">COBERTURA</h1>
+                <h4 class="section-ul text-center">Oficinas en:</h4>
+                <h4 class="section-ul-yellow text-center section-cobertura">CDMX, <br>Guadalajara <br>y MONTERREY</h4>
+                <h4 class="section-ul text-center section-cobertura">con obertura <br> <span class="span_yellow">A NIVEL NACIONAL</span> </h4>
+              </div>
+              <div class="carousel-item">
+                <h1 class="text-center">COBERTURA</h1>
+                <h4 class="section-ul sections-text text-center">Contamos con el mejor equipo y la infraestructura necesaria para dar los mejores resultados encaminados al cumplimiento de los objetivos de comercialización de nuestros clientes.</h4>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselCobertura" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselCobertura" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+        <div class="col-6 img-col">
+          <img id="servicios_img_2" class="img-fluid" src="./img/mapa.png" alt="servicios 2">
+        </div>
+      </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="./js/app.js" charset="utf-8"></script>
+  </body>
+</html>
