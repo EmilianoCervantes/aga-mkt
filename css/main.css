@@ -95,7 +95,7 @@ h1.text-center {
   color: #fadb49;
 }
 .section {
-  height: 80vh;
+  /* height: 80vh; */
   border-bottom: 1px solid white;
 }
 .sections-text {
@@ -138,15 +138,18 @@ h1.text-center {
   color: #c6c6c6;
 }
 .icon {
-  width: 10%;
+  width: 3.25rem;
 }
 .icon2 {
-  width: 6%;
+  width: 2.25rem;
 }
 .icon3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.icon4 {
+  width: 2rem;
 }
 .multIcon {
   width: 30%;
@@ -208,6 +211,30 @@ h1.text-center {
   font-size: 1.5rem;
 }
 
+/* CONTACTO */
+#contacto .title {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+#contacto .subtitle {
+  color: white;
+}
+#contacto .form {
+  padding: 2rem;
+  margin: auto;
+}
+#contacto .form input, #contacto .form textarea {
+  background-color: #c6c6c6;
+}
+
+/* FOOTER */
+.footer {
+  background-color: white;
+  padding-top: 1rem;
+}
+.footer p {
+  color: black;
+}
 
 @media screen and (min-width: 768px) {
   #header {
