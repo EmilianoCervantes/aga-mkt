@@ -65,9 +65,9 @@ body {
 #homeCarousel .carousel-item .d-block.w-100 {
   filter: brightness(50%);
 }
-#homeCarousel .carousel-item .carousel-caption {
-  /* top: 40%!important; */
-}
+/* #homeCarousel .carousel-item .carousel-caption {
+  top: 40%!important;
+} */
 /* #homeCarousel .carousel-item .carousel-caption h1 {
   font-size: 3rem;
 } */
@@ -198,6 +198,15 @@ h1.text-center {
   font-size: 1.2em;
 }
 
+#historia_backg, #mission_backg, #servicios2_backg, #servicios3_backg, #adicionales_backg, #cobertura_backg {
+  background-image: url('../img/Mision.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#mission_backg {
+  background-image: url('../img/Mision.jpg');
+}
+
 /* SERVICIOS */
 #servicios {
   background-color: white;
@@ -215,6 +224,18 @@ h1.text-center {
 }
 .section-ul.adicionales, .section-ul.adicionales li {
   margin-top: 1rem;
+}
+#servicios2_backg {
+  background-image: url('../img/_slider1.jpg');
+}
+#servicios3_backg {
+  background-image: url('../img/_slider2.jpg');
+}
+#adicionales_backg {
+  background-image: url('../img/materialesAdicionales3.jpg');
+}
+#cobertura_backg {
+  background-image: url('../img/mapa.png');
 }
 
 /* COBERTURA */
