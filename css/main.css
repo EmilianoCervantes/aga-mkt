@@ -82,6 +82,16 @@ p {
   color: #c6c6c6;
 }
 
+#social-media {
+  position: fixed;
+  z-index: 99;
+  background-color: #252525;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  margin-top: 5rem;
+}
+
 /* ***** */
 .container {
   max-width: 100%!important;
@@ -114,6 +124,10 @@ h1.text-center {
   margin: auto;
   margin-top: 2.5rem;
   margin-bottom: 3rem;
+}
+.separador-carousel {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .container .img-col {
   overflow: hidden;
@@ -244,7 +258,7 @@ h1.text-center {
     margin-top: 10%;
   }
   #homeCarousel .carousel-item .carousel-caption {
-    top: 40%!important;
+    bottom: 5rem;
   }
 }
 
