@@ -65,9 +65,9 @@ body {
 #homeCarousel .carousel-item .d-block.w-100 {
   filter: brightness(50%);
 }
-#homeCarousel .carousel-item .carousel-caption {
-  /* top: 40%!important; */
-}
+/* #homeCarousel .carousel-item .carousel-caption {
+  top: 40%!important;
+} */
 /* #homeCarousel .carousel-item .carousel-caption h1 {
   font-size: 3rem;
 } */
@@ -80,6 +80,16 @@ body {
 
 p {
   color: #c6c6c6;
+}
+
+#social-media {
+  position: fixed;
+  z-index: 99;
+  background-color: #252525;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  margin-top: 5rem;
 }
 
 /* ***** */
@@ -114,6 +124,10 @@ h1.text-center {
   margin: auto;
   margin-top: 2.5rem;
   margin-bottom: 3rem;
+}
+.separador-carousel {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .container .img-col {
   overflow: hidden;
@@ -158,8 +172,10 @@ h1.text-center {
 .section-ul, .fv.text-center {
   color: #c6c6c6;
 }
+.yellow {
+  color: #fadb49 !important;
+}
 .section-ul-yellow {
-  color: #fadb49;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
@@ -184,6 +200,14 @@ h1.text-center {
   color: #fadb49;
   font-size: 1.2em;
 }
+.image_div {
+  background-color: white;
+}
+.historia_div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .sections-quotes.text-center {
   color: white;
@@ -206,6 +230,18 @@ h1.text-center {
 }
 .section-ul.adicionales, .section-ul.adicionales li {
   margin-top: 1rem;
+}
+#servicios2_backg {
+  background-image: url('../img/_slider1.jpg');
+}
+#servicios3_backg {
+  background-image: url('../img/_slider2.jpg');
+}
+#adicionales_backg {
+  background-image: url('../img/materialesAdicionales3.jpg');
+}
+#cobertura_backg {
+  background-image: url('../img/mapa.png');
 }
 
 /* COBERTURA */
@@ -249,7 +285,7 @@ h1.text-center {
     margin-top: 10%;
   }
   #homeCarousel .carousel-item .carousel-caption {
-    top: 50%!important;
+    top: 50% !important;
   }
 }
 
@@ -260,9 +296,9 @@ h1.text-center {
   #homeCarousel .carousel-item .carousel-caption h4 {
     font-size: 1.5rem;
   }
-  #homeCarousel .carousel-item .carousel-caption {
-    /* top: 30%!important; */
-  }
+  /* #homeCarousel .carousel-item .carousel-caption {
+    top: 30%!important;
+  } */
   .sections-text {
     padding-left: 6em;
     padding-right: 6em;
