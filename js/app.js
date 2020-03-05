@@ -1,12 +1,14 @@
 /**
  * CAMBIO DE COLOR DEL MENU EN CLICK
  */
-function cambioMenu(div) {
+function cambioMenu(div = null) {
   const menuOptions = document.getElementsByClassName("menu-selection");
   [...menuOptions].forEach(option => {
     option.classList.remove("selected");
   });
-  div.parentElement.classList.add("selected");
+  if (div) {
+    div.parentElement.classList.add("selected");
+  }
 }
 
 function toTop() {

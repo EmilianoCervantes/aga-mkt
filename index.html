@@ -16,14 +16,20 @@
         </div>
       </div>
       <div id="full-menu" class="row">
-        <div class="col-12 col-xs-12 col-md-1 text-center selected menu-selection">
+        <div class="col-12 col-xs-12 col-md-2 text-center selected menu-selection">
           <a onclick="toTop(); cambioMenu(this)" href="#"> <i class="fas fa-home"></i> HOME</a>
         </div>
         <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
-          <a onclick="cambioMenu(this)" href="#quienes_somos">QUIÉNES SOMOS</a>
-        </div>
-        <div class="col-12 col-xs-12 col-md-1 text-center menu-selection">
-          <a onclick="cambioMenu(this)" href="#mision">MISIÓN</a>
+          <a class="nav-link dropdown-toggle" href="#" id="nosotrosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            NOSOTROS
+          </a>
+          <div class="dropdown-menu text-center" aria-labelledby="nosotrosDropdown">
+            <a onclick="cambioMenu()" href="#quienes_somos">QUIÉNES SOMOS</a>
+            <br>
+            <a onclick="cambioMenu()" href="#historia">HISTORIA</a>
+            <br>
+            <a onclick="cambioMenu()" href="#mision">MISIÓN</a>
+          </div>
         </div>
         <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
           <a onclick="cambioMenu(this)" href="#servicios">SERVICIOS</a>
@@ -43,7 +49,7 @@
     <div id="social-media">
       <ul class="list-group text-center">
         <li> <a class="btn" href="https://www.facebook.com/AGA-Marketing-y-Promociones-112487366863582/"><i class="fab fa-facebook-f"></i></a> </li>
-        <li> <a class="btn" href="#"><i class="fab fa-twitter"></i></a> </li>
+        <!-- <li> <a class="btn" href="#"><i class="fab fa-twitter"></i></a> </li> -->
         <li> <a class="btn" href="https://www.linkedin.com/company/aga-marketing-y-promociones"><i class="fab fa-linkedin-in"></i></a> </li>
         <li> <a class="btn" href="tel:+5252647100"><i class="fas fa-phone-alt"></i></a> </li>
         <li> <a class="btn" href="mailto:contacto@agamarketing.mx"><i class="fas fa-envelope"></i></a> </li>
@@ -91,20 +97,20 @@
         </div>
         <div class="carousel-item">
           <img src="./img/_slider5.jpg" class="d-block w-100" alt="carousel 5">
-          <!-- <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block">
             <h1>Soluciones Efectivas Siempre</h1>
             <div class="separador separador-carousel"></div>
             <h4>PERSONAL PARA INDUSTRIA DE CONSUMO</h4>
-          </div> -->
+          </div>
         </div>
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <img src="./img/_slider6.jpg" class="d-block w-100" alt="carousel 6">
-          <!-- <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block">
             <h1>Soluciones Efectivas Siempre</h1>
             <div class="separador separador-carousel"></div>
             <h4>FUERZA DE VENTAS</h4>
-          </div> -->
-        </div>
+          </div>
+        </div> -->
       </div>
       <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,29 +126,29 @@
     <div class="container">
       <!-- QUIÉNES -->
       <div id="quienes_somos" class="row section">
+        <div class="col-xs-12 col-sm-12 col-md-6 text_col">
+          <h1 class="text-center section_title">¿QUIÉNES SOMOS?</h1>
+          <p class="sections_text">Somos una empresa <span class="span_yellow">100% mexicana</span> con 35 años de experiencia en el mercado dedicada al apoyo de las estrategias de Marketing de nuestros clientes principalmente aportando al mejor talento humano en el punto de venta, incluyendo el seguimiento completo, la operación con supervisores y manejo de información en tiempo real.</p>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-6 img-col">
           <img id="quienes_somos_img" src="./img/quienes_somos.png" alt="quienes_somos">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <h1 class="text-center">¿QUIÉNES SOMOS?</h1>
-          <p class="sections-text">Somos una empresa <span class="span_yellow">100% mexicana</span> con 35 años de experiencia en el mercado dedicada al apoyo de las estrategias de Marketing de nuestros clientes principalmente aportando al mejor talento humano en el punto de venta, incluyendo el seguimiento completo, la operación con supervisores y manejo de información en tiempo real.</p>
-        </div>
       </div>
-      <div id="quienes_somos_2" class="row section">
+      <div id="historia" class="row section">
         <div class="col-xs-12 col-sm-12 col-md-6 img-col historia_div image_div">
           <img id="historia" class="align-middle" src="./img/historia_logo.jpg" alt="historia">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <h1 class="text-center">HISTORIA</h1>
-          <p class="sections-text">Empresa fundada en 1984 por Antonio Guerrero. Por más de 30 años se desarrolló exitosamente en las áreas comerciales de Colgate (Marketing y Ventas) y dirigió más de 20 años esta compañía. <span class="span_yellow">AGA Marketing y Promociones</span> surge ante la necesidad de las empresas que requieren de un servicio y atención profesional en la contratación, capacitación y supervisión de personal para el punto de venta.</p>
+        <div class="col-xs-12 col-sm-12 col-md-6 text_col">
+          <h1 class="text-center section_title">HISTORIA</h1>
+          <p class="sections_text">Empresa fundada en 1984 por Antonio Guerrero. Por más de 30 años se desarrolló exitosamente en las áreas comerciales de Colgate (Marketing y Ventas) y dirigió más de 20 años esta compañía. <span class="span_yellow">AGA Marketing y Promociones</span> surge ante la necesidad de las empresas que requieren de un servicio y atención profesional en la contratación, capacitación y supervisión de personal para el punto de venta.</p>
         </div>
       </div>
 
       <!-- MISION -->
       <div id="mision" class="row section">
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <h1 class="text-center">MISIÓN</h1>
-          <p class="sections-text">Ser el mejor socio comercial efectivo y productivo de las empresas que busquen conquistar, a través de estrategias asertivas de marketing y promoción, a más clientes de forma constante y permanente con altos estándares de calidad.</p>
+        <div class="col-xs-12 col-sm-12 col-md-6 text_col">
+          <h1 class="text-center section_title">MISIÓN</h1>
+          <p class="sections_text">Ser el mejor socio comercial efectivo y productivo de las empresas que busquen conquistar, a través de estrategias asertivas de marketing y promoción, a más clientes de forma constante y permanente con altos estándares de calidad.</p>
           <div class="separador"></div>
           <h2 class="sections-quotes text-center yellow">“Soluciones Efectivas Siempre”</h2>
         </div>
@@ -391,7 +397,7 @@
               </div>
               <div class="carousel-item">
                 <h1 class="text-center">COBERTURA</h1>
-                <h4 class="section-ul sections-text text-center">Contamos con el mejor equipo y la infraestructura necesaria para dar los mejores resultados encaminados al cumplimiento de los objetivos de comercialización de nuestros clientes.</h4>
+                <h4 class="section-ul sections_text text-center">Contamos con el mejor equipo y la infraestructura necesaria para dar los mejores resultados encaminados al cumplimiento de los objetivos de comercialización de nuestros clientes.</h4>
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselCobertura" role="button" data-slide="prev">

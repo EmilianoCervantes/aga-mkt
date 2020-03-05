@@ -36,10 +36,15 @@ body {
   width: 10%;
 }
 
-#header #full-menu {
+#header #full-menu, .dropdown-menu {
   background-color: #252525;
-  /* padding-top: 0.5em;
-  padding-bottom: 0.5em; */
+}
+#header #full-menu .nav-link {
+  padding: 0;
+}
+.dropdown-menu a {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 #header #full-menu .text-center {
   border-left: 1px solid #383838;
@@ -57,11 +62,11 @@ body {
   color: #252525;
 }
 
-#homeCarousel .carousel-inner {
-  /* position: relative; */
-  /* margin-top: 50vh; */
-  height: 85vh;
-}
+/* #homeCarousel .carousel-inner {
+  //position: relative;
+  //margin-top: 50vh;
+  //height: 85vh;
+} */
 
 .carousel-item {
   padding-top: 1.1rem;
@@ -115,15 +120,21 @@ p {
   color: #fadb49;
 }
 .section {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   border-bottom: 1px solid white;
 }
-.sections-text {
+.section .text_col {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.sections_text {
   padding-left: 1em;
   padding-right: 1em;
   text-align: justify;
-  line-height: 2.5;
+  line-height: 2;
   font-size: 1.15rem;
+  margin: 0;
 }
 
 .separador {
@@ -153,7 +164,7 @@ p {
 }
 
 .fullscreen-img {
-  max-height: 80vh;
+  max-height: 75vh;
   margin: auto;
   display: block;
   max-width: 100%;
@@ -164,10 +175,10 @@ p {
   color: #c6c6c6;
 }
 .icon {
-  width: 3.25rem;
+  width: 2.75rem;
 }
 .icon2 {
-  width: 2.25rem;
+  width: 2rem;
 }
 .icon3 {
   display: block;
@@ -175,14 +186,14 @@ p {
   margin-right: auto;
 }
 .icon4 {
-  width: 2rem;
+  width: 1.75rem;
 }
 .multIcon {
   width: 30%;
 }
 .section-ul, .fv.text-center {
   color: #c6c6c6;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 .yellow {
   color: #fadb49 !important;
@@ -190,6 +201,11 @@ p {
 .section-ul-yellow {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
+}
+
+.section_title {
+  color: white;
+  font-size: 2rem;
 }
 
 /* ***** *****
@@ -261,7 +277,7 @@ p {
 .section-cobertura {
   line-height: 1.5;
 }
-#cobertura .sections-text {
+#cobertura .sections_text {
   font-size: 1.25rem;
 }
 
@@ -328,7 +344,7 @@ p {
   /* #homeCarousel .carousel-item .carousel-caption {
     top: 30%!important;
   } */
-  .sections-text {
+  .sections_text {
     padding-left: 6em;
     padding-right: 6em;
   }
