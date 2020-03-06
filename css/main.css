@@ -193,7 +193,7 @@ p {
 }
 .section-ul, .fv.text-center {
   color: #c6c6c6;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 .yellow {
   color: #fadb49 !important;
@@ -206,6 +206,10 @@ p {
 .section_title {
   color: white;
   font-size: 2rem;
+}
+
+.flex_span_carousel {
+  width: 100%;
 }
 
 /* ***** *****
