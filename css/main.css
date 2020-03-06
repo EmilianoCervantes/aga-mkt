@@ -251,6 +251,17 @@ p {
   background-color: white;
   padding: 1.5em;
 }
+#servicios_img_container {
+  position: relative;
+}
+#servicios_links_container {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  width: 100%;
+  margin: auto;
+}
+
 .servicios h1 {
   padding-top: 0em;
 }
@@ -283,6 +294,10 @@ p {
 }
 #cobertura .sections_text {
   font-size: 1.25rem;
+}
+
+.btn.contact {
+  font-size: 1.5rem;
 }
 
 /* CONTACTO */

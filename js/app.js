@@ -1,4 +1,12 @@
 /**
+ * Offset
+ * @param {*} div 
+ */
+window.addEventListener("hashchange", function () {
+  window.scrollTo(window.scrollX, window.scrollY - 110);
+});
+
+/**
  * CAMBIO DE COLOR DEL MENU EN CLICK
  */
 function cambioMenu(div = null) {

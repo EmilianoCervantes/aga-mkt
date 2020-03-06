@@ -165,8 +165,13 @@
 
       <!-- SERVICIOS -->
       <div id="servicios" class="row section">
-        <div class="col-12">
+        <div id="servicios_img_container" class="col-12">
           <img class="fullscreen-img" src="./img/servicios.png" alt="servicios mapa">
+          <div id="servicios_links_container" class="row">
+            <a href="#servicios_2" class="col"></a>
+            <a href="#servicios_3" class="col"></a>
+            <a href="#servicios_4" class="col"></a>
+          </div>
         </div>
       </div>
       <div id="servicios_2" class="row servicios section">
@@ -182,10 +187,10 @@
                 <div class="carousel-item active">
                   <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon.png"" alt=""> </span> Personal para Industria de Consumo</h3>
                   <h1 class="text-center">Tipo de Personal</h1>
-                  <h4 class="section-ul">- Demostradoras</h4>
-                  <h4 class="section-ul">- Demovendedoras</h4>
                   <h4 class="section-ul">- Promotores</h4>
                   <h4 class="section-ul">- Promovendedores</h4>
+                  <h4 class="section-ul">- Demostradoras</h4>
+                  <h4 class="section-ul">- Demovendedoras</h4>
                   <h4 class="section-ul">- Edecanes</h4>
                 </div>
                 <div class="carousel-item">
@@ -240,17 +245,17 @@
                   <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon_2.png"" alt=""> </span> Fuerza de Ventas</h3>
                   <h1 class="text-center">Fuerza de Ventas para:</h1>
                   <img class="icon icon3" src="./img/fv_1.png" alt="fv 1">
-                  <h4 class="fv text-center">1. Industria de Consumo</h4>
+                  <h4 class="fv text-center">Industria de Consumo</h4>
                   <img class="icon icon3 multIcon" src="./img/fv_2.png" alt="fv 2">
-                  <h4 class="fv text-center">2. Especializada</h4>
+                  <h4 class="fv text-center">Especializada</h4>
                 </div>
                 <div class="carousel-item">
                   <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon_2.png"" alt=""> </span> Fuerza de Ventas</h3>
                   <img class="icon icon3 multIcon" src="./img/fv_2.png" alt="fv 2">
-                  <h4 class="fv text-center">2. Fuerza de Ventas Especializada</h4>
+                  <!-- <h4 class="fv text-center">Fuerza de Ventas Especializada</h4> -->
                   <h4 class="section-ul section-ul-yellow yellow">INDUSTRIA FARMACÉUTICA</h4>
                   <h4 class="section-ul">- Fuerza de ventas tradicional</h4>
-                  <h4 class="section-ul">- Fuerza de ventas especialziada</h4>
+                  <h4 class="section-ul">- Fuerza de ventas especializada</h4>
                   <h4 class="section-ul section-ul-yellow yellow">OTRAS INDUSTRIAS</h4>
                   <h4 class="section-ul">- Químicos</h4>
                   <h4 class="section-ul">- Colorantes</h4>
@@ -319,7 +324,7 @@
                         <li>Material pto. de vta</li>
                         <li>Textiles</li>
                         <li>Rotulación automotriz</li>
-                        <li>Equipo de seguridad industria</li>
+                        <li>Equipo de seguridad industrial</li>
                       </ul>
                     </span>
                   </h4>
@@ -368,7 +373,7 @@
                       <ul>
                         <li>Páginas web</li>
                         <li>CRM's</li>
-                        <li>Mintería de datos</li>
+                        <li>Minería de datos</li>
                         <li>Dashboard</li>
                         <li>Ayudas Visuales</li>
                       </ul>
@@ -449,9 +454,13 @@
         <div class="col-12">
           <h1 class="text-center title">CONTACTO</h1>
           <h4 class="subtitle section-ul text-center">ENVÍANOS UN CORREO ELECTRÓNICO Y ATENDEREMOS TU SOLICITUD A LA BREVEDAD</h4>
-          <h4 class="section-ul-yellow yellow section-cobertura text-center"><span> <img class="icon4" src="./img/icono_mail.png" alt=""> </span>contacto@agamarketing.mx</h4>
+          <h4 class="section-ul-yellow yellow section-cobertura text-center">
+            <a class="btn yellow contact" href="mailto:contacto@agamarketing.mx"><span> <img class="icon4" src="./img/icono_mail.png" alt=""> </span>contacto@agamarketing.mx</a>
+          </h4>
           <h4 class="section-ul-yellow yellow section-cobertura text-center"><span> <img class="icon4" src="./img/icono_ubi.png" alt=""> </span>Zacatecas 182, Col. Roma Norte, 06700, Cuauhtémoc, CDMX.</h4>
-          <h4 class="section-ul-yellow yellow section-cobertura text-center"><span> <img class="icon4" src="./img/icono_tel.png" alt=""> </span>5264 7100</h4>
+          <h4 class="section-ul-yellow yellow section-cobertura text-center">
+            <a class="btn yellow contact" href="tel:+5252647100"><span> <img class="icon4" src="./img/icono_tel.png" alt=""> </span>5264 7100</a>
+          </h4>
         </div>
         <form class="form">
           <div class="row">
@@ -471,7 +480,7 @@
 
       <div class="row footer">
         <div class="col">
-          <p class="text-center">©AGA MARKETING Y PROMOCIONES.</p>
+          <p class="text-center">©AGA MARKETING Y PROMOCIONES <span id="anio"></span>.</p>
         </div>
       </div>
 
@@ -481,5 +490,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <script src="./js/app.js" charset="utf-8"></script>
+    <script>
+      document.getElementById('anio').innerText = new Date().getFullYear();
+    </script>
   </body>
 </html>
