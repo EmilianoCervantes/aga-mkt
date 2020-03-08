@@ -370,11 +370,13 @@ p {
 
   .servicios .section-ul {
     padding-left: 7rem;
+    text-indent: -2em;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .servicios .section-ul {
     padding-left: 10rem;
+    text-indent: -1.75em;
   }
 }
