@@ -3,7 +3,7 @@
  * @param {*} div 
  */
 window.addEventListener("hashchange", function () {
-  window.scrollTo(window.scrollX, window.scrollY - 110);
+  window.scrollTo(window.scrollX, window.scrollY - 140);
 });
 
 /**

@@ -32,7 +32,18 @@
           </div>
         </div>
         <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
-          <a onclick="cambioMenu(this)" href="#servicios">SERVICIOS</a>
+          <a class="nav-link dropdown-toggle" href="#" id="serviciosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            SERVICIOS
+          </a>
+          <div id="dropDownServ" class="dropdown-menu text-center" aria-labelledby="serviciosDropdown">
+            <a onclick="cambioMenu()" href="#servicios">GENERAL</a>
+            <br>
+            <a onclick="cambioMenu()" href="#servicios_2">PERSONAL</a>
+            <br>
+            <a onclick="cambioMenu()" href="#servicios_3">FUERZA DE VENTAS</a>
+            <br>
+            <a onclick="cambioMenu()" href="#servicios_4">ADICIONALES</a>
+          </div>
         </div>
         <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
           <a onclick="cambioMenu(this)" href="#cobertura">COBERTURA</a>
@@ -243,14 +254,16 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon_2.png"" alt=""> </span> Fuerza de Ventas</h3>
-                  <h1 class="text-center">Fuerza de Ventas para:</h1>
+                  <!-- <h1 class="text-center">Fuerza de Ventas para:</h1> -->
+                  <br>
                   <img class="icon icon3" src="./img/fv_1.png" alt="fv 1">
                   <h4 class="fv text-center">Industria de Consumo</h4>
                   <img class="icon icon3 multIcon" src="./img/fv_2.png" alt="fv 2">
                   <h4 class="fv text-center">Especializada</h4>
                 </div>
                 <div class="carousel-item">
-                  <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon_2.png"" alt=""> </span> Fuerza de Ventas</h3>
+                  <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon_2.png"" alt=""> </span> Fuerza de Ventas Especializada</h3>
+                  <br>
                   <img class="icon icon3 multIcon" src="./img/fv_2.png" alt="fv 2">
                   <!-- <h4 class="fv text-center">Fuerza de Ventas Especializada</h4> -->
                   <h4 class="section-ul section-ul-yellow yellow">INDUSTRIA FARMACÉUTICA</h4>
@@ -309,6 +322,7 @@
                   </h4>
                   <h4 class="section-ul adicionales">- Digital</h4>
                   <h4 class="section-ul adicionales">- Administración de nómina</h4>
+                  <h4 class="section-ul adicionales">- Activaciones de marca</h4>
                 </div>
                 <div class="carousel-item">
                   <h3 class="alt-title text-center servAdTit"> <span> <img class="icon" src="./img/servicios_adicionales.png"" alt=""> </span> Servicios Adicionales</h3>
