@@ -3,7 +3,10 @@
  * @param {*} div 
  */
 window.addEventListener("hashchange", function () {
-  window.scrollTo(window.scrollX, window.scrollY - 140);
+  // console.log(event.target.location.hash);
+  if (event.target.location.hash !== '#contacto') {
+    window.scrollTo(window.scrollX, window.scrollY - 140);
+  }
 });
 
 /**

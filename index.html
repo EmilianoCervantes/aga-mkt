@@ -31,7 +31,7 @@
             <a onclick="cambioMenu()" href="#mision">MISIÓN</a>
           </div>
         </div>
-        <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
+        <!-- <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
           <a class="nav-link dropdown-toggle" href="#" id="serviciosDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             SERVICIOS
           </a>
@@ -44,6 +44,9 @@
             <br>
             <a onclick="cambioMenu()" href="#servicios_4">ADICIONALES</a>
           </div>
+        </div> -->
+        <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
+          <a onclick="cambioMenu(this)" href="#servicios">SERVICIOS</a>
         </div>
         <div class="col-12 col-xs-12 col-md-2 text-center menu-selection">
           <a onclick="cambioMenu(this)" href="#cobertura">COBERTURA</a>
@@ -59,9 +62,9 @@
 
     <div id="social-media">
       <ul class="list-group text-center">
-        <li> <a class="btn" href="https://www.facebook.com/AGA-Marketing-y-Promociones-112487366863582/"><i class="fab fa-facebook-f"></i></a> </li>
+        <li> <a class="btn" target="_blank" href="https://www.facebook.com/AGA-Marketing-y-Promociones-112487366863582/"><i class="fab fa-facebook-f"></i></a> </li>
         <!-- <li> <a class="btn" href="#"><i class="fab fa-twitter"></i></a> </li> -->
-        <li> <a class="btn" href="https://www.linkedin.com/company/aga-marketing-y-promociones"><i class="fab fa-linkedin-in"></i></a> </li>
+        <li> <a class="btn" target="_blank" href="https://www.linkedin.com/company/aga-marketing-y-promociones"><i class="fab fa-linkedin-in"></i></a> </li>
         <li> <a class="btn" href="tel:+5252647100"><i class="fas fa-phone-alt"></i></a> </li>
         <li> <a class="btn" href="mailto:contacto@agamarketing.mx"><i class="fas fa-envelope"></i></a> </li>
       </ul>
@@ -75,7 +78,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./img/_slider1.jpg" class="d-block w-100" alt="carousel 1">
+          <img src="./img/_slider_1.jpg" class="d-block w-100" alt="carousel 1">
           <div class="carousel-caption d-none d-md-block">
             <h1>Soluciones Efectivas Siempre</h1>
             <div class="separador separador-carousel"></div>
@@ -83,7 +86,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/_slider2.jpg" class="d-block w-100" alt="carousel 2">
+          <img src="./img/_slider_2.jpg" class="d-block w-100" alt="carousel 2">
           <div class="carousel-caption d-none d-md-block">
             <h1>Soluciones Efectivas Siempre</h1>
             <div class="separador separador-carousel"></div>
@@ -91,7 +94,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/_slider3.jpg" class="d-block w-100" alt="carousel 3">
+          <img src="./img/_slider_3.jpg" class="d-block w-100" alt="carousel 3">
           <div class="carousel-caption d-none d-md-block">
             <h1>Soluciones Efectivas Siempre</h1>
             <div class="separador separador-carousel"></div>
@@ -99,7 +102,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/_slider4.jpg" class="d-block w-100" alt="carousel 4">
+          <img src="./img/_slider_4.jpg" class="d-block w-100" alt="carousel 4">
           <div class="carousel-caption d-none d-md-block">
             <h1>Soluciones Efectivas Siempre</h1>
             <div class="separador separador-carousel"></div>
@@ -107,7 +110,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./img/_slider5.jpg" class="d-block w-100" alt="carousel 5">
+          <img src="./img/_slider_5.jpg" class="d-block w-100" alt="carousel 5">
           <div class="carousel-caption d-none d-md-block">
             <h1>Soluciones Efectivas Siempre</h1>
             <div class="separador separador-carousel"></div>
@@ -169,8 +172,9 @@
             <h2 class="sections-quotes text-center yellow">“Soluciones Efectivas Siempre”</h2>
           </span>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 img-col image_div">
-          <img id="mission_img" src="./img/Mision.jpg" alt="mision">
+        <!-- image_div -->
+        <div class="col-xs-12 col-sm-12 col-md-6 img-col">
+          <img id="mission_img" src="./img/Mision_alt.jpg" alt="mision">
         </div>
       </div>
 
@@ -216,13 +220,13 @@
                 <div class="carousel-item">
                   <h3 class="alt-title text-center"> <span> <img class="icon" src="./img/servicios_icon.png"" alt=""> </span> Personal para Industria de Consumo</h3>
                   <h1 class="text-center">¿Qué Ofrecemos?</h1>
-                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i1.png"" alt="icon2"> </span> Reclutamiento y selección</h4>
-                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i2.png"" alt="icon2"> </span> Administración de nómina</h4>
-                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i3.png"" alt="icon2"> </span> Capacitación</h4>
-                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i4.png"" alt="icon2"> </span> Supervisión</h4>
-                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i5.png"" alt="icon2"> </span> Control</h4>
-                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i6.png"" alt="icon2"> </span> Medición de resultados que contribuye a la estrategia de marca</h4>
-                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i7.png"" alt="icon2"> </span> Back Office (Itinerarios, viajes, leasing, fondos de viajes, gasolina, etc.)</h4>
+                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i1.png" alt="icon2"> </span> Reclutamiento y selección</h4>
+                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i2.png" alt="icon2"> </span> Administración de nómina</h4>
+                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i3.png" alt="icon2"> </span> Capacitación</h4>
+                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i4.png" alt="icon2"> </span> Supervisión</h4>
+                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i5.png" alt="icon2"> </span> Control</h4>
+                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i6.png" alt="icon2"> </span> Medición de resultados que contribuye a la estrategia de marca</h4>
+                  <h4 class="section-ul"><span> <img class="icon2" src="./img/servicios_i7.png" alt="icon2"> </span> Back Office (Itinerarios, viajes, leasing, fondos de viajes, gasolina, etc.)</h4>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselServicios" role="button" data-slide="prev">
@@ -267,8 +271,8 @@
                   <img class="icon icon3 multIcon" src="./img/fv_2.png" alt="fv 2">
                   <!-- <h4 class="fv text-center">Fuerza de Ventas Especializada</h4> -->
                   <h4 class="section-ul section-ul-yellow yellow">INDUSTRIA FARMACÉUTICA</h4>
-                  <h4 class="section-ul">- Fuerza de ventas tradicional</h4>
-                  <h4 class="section-ul">- Fuerza de ventas especializada</h4>
+                  <h4 class="section-ul">- Tradicional</h4>
+                  <h4 class="section-ul">- Especializada</h4>
                   <h4 class="section-ul section-ul-yellow yellow">OTRAS INDUSTRIAS</h4>
                   <h4 class="section-ul">- Químicos</h4>
                   <h4 class="section-ul">- Colorantes</h4>
@@ -432,7 +436,7 @@
                   <h1 class="text-center">COBERTURA</h1>
                   <h4 class="section-ul text-center">Oficinas en:</h4>
                   <h4 class="section-ul-yellow yellow text-center section-cobertura">CDMX, <br>GUADALAJARA <br>y MONTERREY</h4>
-                  <h4 class="section-ul text-center section-cobertura">con obertura <br> <span class="span_yellow">A NIVEL NACIONAL</span> </h4>
+                  <h4 class="section-ul text-center section-cobertura">con cobertura <br> <span class="span_yellow">A NIVEL NACIONAL</span> </h4>
                 </div>
                 <div class="carousel-item">
                   <h1 class="text-center">COBERTURA</h1>
@@ -456,9 +460,9 @@
       <!-- EXPERIENCIA/CLIENTES -->
       <div id="clientes" class="row section">
         <div class="col-12 text-center image_div">
+          <!-- <br>
           <br>
-          <br>
-          <h1>EXPERIENCIA / CLIENTES</h1>
+          <h1>EXPERIENCIA / CLIENTES</h1> -->
           <img class="fullscreen-img" src="./img/clientes.png" alt="EXPERIENCIA/CLIENTES">
         </div>
       </div>
@@ -479,14 +483,19 @@
         <form class="form">
           <div class="row">
             <div class="col-6">
-              <input class="form-control" type="text" name="nombre" value="" placeholder="Nombre">
+              <input class="form-control" type="text" name="nombre" id="nombre" value="" placeholder="Nombre">
               <br>
-              <input class="form-control" type="text" name="telefono" value="" placeholder="Teléfono">
+              <input class="form-control" type="text" name="telefono" id="telefono" value="" placeholder="Teléfono">
               <br>
-              <input class="form-control" type="text" name="email" value="" placeholder="E-mail">
+              <input class="form-control" type="text" name="email" id="email" value="" placeholder="E-mail">
             </div>
             <div class="col-6">
-              <textarea class="form-control" name="name" rows="6" cols="80" placeholder="Mensaje"></textarea>
+              <textarea id="mensaje" class="form-control" name="mensaje" rows="6" cols="80" placeholder="Mensaje"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <button class="btn" type="submit">Enviar</button>
             </div>
           </div>
         </form>

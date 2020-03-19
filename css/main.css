@@ -216,13 +216,16 @@ p {
 .flex_span_carousel {
   width: 100%;
 }
+.img-col {
+  background-color: white;
+}
 
 /* ***** *****
 ***** QUIENES SOMOS *****
 ***** ***** */
-#quienes_somos .img-col {
+/* #quienes_somos .img-col {
   background-color: white;
-}
+} */
 #quienes_somos .img-col img {
   padding-top: 10%;
   padding-bottom: 10%;
@@ -309,16 +312,24 @@ p {
 #contacto .title {
   padding-top: 1em;
   padding-bottom: 0.5em;
+  color: white;
 }
 #contacto .subtitle {
   color: white;
 }
 #contacto .form {
   padding: 2rem;
+  padding-top: 0;
   margin: auto;
 }
-#contacto .form input, #contacto .form textarea {
+#contacto .form input, #contacto .form textarea, #contacto .form .btn {
   background-color: #c6c6c6;
+}
+#contacto .form .btn {
+  margin-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* color: white; */
 }
 
 /* FOOTER */
