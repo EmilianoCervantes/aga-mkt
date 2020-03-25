@@ -216,6 +216,13 @@ p {
 .flex_span_carousel {
   width: 100%;
 }
+.flex_span_carousel .carousel-item {
+  display: none;
+}
+.flex_span_carousel .carousel-item.active {
+  margin: auto;
+  display: block;
+}
 .img-col {
   background-color: white;
 }
